@@ -1,0 +1,4 @@
+# Project-local Codex bootstrap for Intent Contract Router.
+# Hooks must be reviewed/trusted with /hooks before they enforce in Codex CLI.
+[features]
+hooks = true

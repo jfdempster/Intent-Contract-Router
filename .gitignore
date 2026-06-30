@@ -1,0 +1,4 @@
+node_modules/
+dist/
+.icr/session-ready.json
+*.log

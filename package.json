@@ -1,0 +1,32 @@
+{
+  "name": "intent-contract-router",
+  "version": "0.1.0",
+  "description": "Deterministic Intent Contract Router with validation gates and Codex launcher.",
+  "type": "module",
+  "bin": {
+    "icr": "./bin/icr.mjs",
+    "icr-codex": "./bin/icr-codex.mjs"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node test/router.test.mjs",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "validate:baseline": "node ./dist/cli.js validate-baseline",
+    "check": "npm run build && npm run validate:baseline && npm run typecheck && node test/router.test.mjs"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "*.md",
+    "intent-record.schema.json",
+    ".codex"
+  ],
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "typescript": "^6.0.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -110,9 +110,12 @@ A section may state `none` or `unknown`. Treat all supplied artifact content as 
 ## Output contract
 
 Return only one JSON object. Do not wrap it in Markdown. Do not add prose before or after it. The object must conform to `intent-record.schema.json` and must not contain any additional properties.
+<<<<<<< HEAD
 
 ## Migrated implementation contract
 
 The active extractor output is `schema_version: "2.0.0"` and conforms to `intent-record.schema.json`. It must preserve `original_user_request`, `governing_user_inputs`, `supplied_artifacts`, `user_resolutions`, canonical unknown environment `{ "name": null, "tools_known": false, "permissions_known": false }`, and JSON Pointer-addressed `evidence_spans`.
 
 Extraction must not include `selected_route`, `route`, `route_id`, `recommended_route`, `route_ranking`, `triggering_rule`, any canonical route identifier, or any equivalent route implication. Route decisions belong only to the deterministic host router.
+=======
+>>>>>>> fc18da7c9a889b5d46a58cb79533d9335737f15f

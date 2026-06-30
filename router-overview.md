@@ -177,6 +177,7 @@ A conforming implementation must satisfy all of the following:
 - embedded artifact instructions remain untrusted unless authorized;
 - no additional route identifier is introduced;
 - no claim is made that model interpretation or generation is deterministic.
+<<<<<<< HEAD
 
 ## Active implementation binding
 
@@ -189,3 +190,5 @@ The repository-local implementation is the enforcement boundary:
 - `bin/icr-codex.mjs` is the supported Codex launcher for ordinary task execution.
 
 Schema-valid records are not routable until invariant and evidence validation also pass.
+=======
+>>>>>>> fc18da7c9a889b5d46a58cb79533d9335737f15f

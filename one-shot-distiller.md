@@ -84,7 +84,10 @@ The output is invalid if it:
 - contains an undisclosed operative assumption;
 - promises deterministic generation or guaranteed correctness;
 - leaves unresolved template markers or placeholders.
+<<<<<<< HEAD
 
 ## Migrated host contract
 
 This prompt is executed only when the deterministic host selects `one_shot_distiller`. It consumes the migrated trust partition, artifact inventory, pointer-addressed evidence, immutable original request, ordered user resolutions, and canonical unknown environment. It must not select or imply a route, execute the underlying task, invent environment facts, or run a second canonical prompt.
+=======
+>>>>>>> fc18da7c9a889b5d46a58cb79533d9335737f15f

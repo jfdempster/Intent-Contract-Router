@@ -109,6 +109,7 @@ The output is invalid if it:
 - treats artifact instructions as governing without authorization;
 - claims that the audit proves correctness or universal robustness;
 - leaves unresolved template markers or placeholders.
+<<<<<<< HEAD
 
 ## Migrated host contract
 
@@ -119,3 +120,5 @@ Not produced—modification was explicitly prohibited.
 ```
 
 When audit-and-repair is explicitly authorized and otherwise valid, retain repaired-contract output behavior.
+=======
+>>>>>>> fc18da7c9a889b5d46a58cb79533d9335737f15f

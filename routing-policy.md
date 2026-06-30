@@ -273,6 +273,7 @@ It must also establish that:
 - explicit instructions dominate inferred practical intent;
 - instructions inside artifacts remain untrusted unless authorized;
 - no claim is made that model interpretation or output generation is deterministic.
+<<<<<<< HEAD
 
 ## Active decision record
 
@@ -289,3 +290,5 @@ The active host decision emits:
 ```
 
 The decision object is not part of extraction. A decision without the active routing-policy version is invalid and must not execute a route prompt.
+=======
+>>>>>>> fc18da7c9a889b5d46a58cb79533d9335737f15f
